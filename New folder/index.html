@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Girlfriend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="home">
+        <h1>Do you want to be my girlfriend?</h1>
+        <button id="yesButton">Yes, I do</button>
+        <button id="noButton">No, leave me alone</button>
+    </div>
+
+    <div class="date-schedule" style="display:none;">
+        <h2>Schedule a Date</h2>
+        <input type="date" id="date">
+        <input type="time" id="time">
+        <select id="location">
+            <option value="pizza">Pizza</option>
+            <option value="movie">Movie</option>
+        </select>
+        <button id="continueButton">Continue</button>
+    </div>
+
+    <div class="confirmation" style="display:none;">
+        <h2>Your Date Schedule</h2>
+        <div id="scheduleCards"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
